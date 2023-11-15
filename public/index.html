@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Prueba</h1>
+    <form accept-charset="UTF-8" id="login_form">
+        <input type="email" name="" id="correo" placeholder="Correo" value="">
+        <input type="text" name="" id="usuario" placeholder="Usuario" value="">
+        <input type="submit" value="Enviar" onclick="loguear()">
+    </form>
+    <br>
+    <div id="container_mensajes">
+    </div>
+    <br>
+    <div>
+        <textarea id="mensaje" name="mensaje" cols="30" rows="10"></textarea>
+        <button onclick="enviarMensaje()">Enviar</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="funciones_sockets.js"></script>
+    <script>
+       
+
+    </script>
+</body>
+</html>
